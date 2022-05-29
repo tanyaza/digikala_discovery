@@ -1,0 +1,258 @@
+.detail-page {
+	width: 90%;
+	height: 100%;
+	margin: 30px auto;
+	&__container {
+		display: flex;
+	}
+	&__entitle {
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 2.17;
+		color: #c0c2c5;
+		display: flex;
+		align-items: center;
+	}
+
+	&__features {
+		margin-top: auto;
+		border-bottom: 1px solid #e0e0e2;
+		padding-bottom: 10px;
+	}
+	&__titleContainer {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	&__title {
+		display: flex;
+		img {
+			width: 52px;
+			height: 52px;
+			object-fit: cover;
+		}
+		h1 {
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 2.12;
+			margin: 0 5px;
+			color: #0c0c0c;
+		}
+	}
+	&__image {
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+		&__mainImg {
+			width: 100%;
+			height: 100%;
+
+			object-fit: cover;
+		}
+	}
+	&__imagesContainer {
+		width: 90%;
+		margin: 20px;
+		margin-top: auto;
+		display: flex;
+		align-items: center;
+		height: 90px;
+		overflow: scroll;
+		flex-wrap: nowrap;
+		div {
+			width: 72px;
+			height: 72px;
+			min-width: 72px;
+			padding: 5px;
+			margin: 0 5px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid #e0e0e2;
+			border-radius: 8px;
+			img {
+				object-fit: contain;
+				width: 100%;
+			}
+		}
+	}
+
+	&__info {
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&__infoSection {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+	}
+	&__manufacture {
+		color: #81858b;
+		font-size: 16px;
+		span {
+			color: #424750;
+			font-size: 14px;
+			margin: 0 5px;
+			font-weight: 600;
+		}
+	}
+	&__suggestion {
+		color: #62666d;
+		font-size: 14px;
+	}
+	&__freeShipping {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border: 1px solid #e0e0e2;
+		border-radius: 8px;
+		padding: 5px 10px;
+		margin: 10px 0;
+
+		div {
+			display: flex;
+			flex-direction: column;
+			span {
+				color: #232933;
+				font-size: 18px;
+				margin-bottom: 5px;
+			}
+			p {
+				color: #81858b;
+				font-size: 14px;
+				margin: 0;
+			}
+		}
+		img {
+			width: 100px;
+			height: 77px;
+			object-fit: cover;
+		}
+	}
+	&__digiplus {
+		border: 1px solid #e0e0e2;
+		border-radius: 8px;
+	}
+}
+
+.product-infoBox {
+	border: 1px solid #e0e0e2;
+	border-radius: 8px;
+	padding: 10px 15px;
+	background: linear-gradient(
+			0deg,
+			hsla(240, 3%, 94%, 0.5),
+			hsla(240, 3%, 94%, 0.5)
+		),
+		#fff;
+	width: calc(45% - 15px);
+	h1 {
+		font-size: 16px;
+	}
+
+	&__firstRow {
+		border-bottom: 1px solid #e0e0e2;
+		padding-bottom: 10px;
+	}
+	&__seller {
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+		img {
+			width: 20px;
+			height: 20px;
+			object-fit: cover;
+			margin: 0 5px;
+		}
+	}
+	&__secondRow,
+	&__thirdRow {
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid #e0e0e2;
+		padding: 10px 0;
+		img {
+			width: 24px;
+			object-fit: cover;
+			margin-left: 5px;
+		}
+		p {
+			color: #424750;
+			font-size: 14px;
+		}
+	}
+	&__forthRow {
+		display: flex;
+		flex-direction: column;
+		border-bottom: 1px solid #e0e0e2;
+		padding: 0 0 10px;
+		h2 {
+			color: #424750;
+			font-size: 16px;
+		}
+	}
+	&__delivery {
+		display: flex;
+		align-items: center;
+		margin: 10px 0;
+		img {
+			width: 18px;
+			height: 18px;
+			height: 20px;
+			margin: 0 5px;
+		}
+		span {
+			font-size: 12px;
+			color: #81858b;
+		}
+	}
+	&__lastRow {
+		display: flex;
+		flex-direction: column;
+		padding: 20px 0;
+
+		button {
+			border: transparent;
+			background-color: #ef4056;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			font-weight: 500;
+			height: 40px;
+			width: 100%;
+			border-radius: 8px;
+			cursor: pointer;
+			font-weight: 600;
+		}
+	}
+	&__price {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+		span {
+			font-size: 16px;
+			color: #424750;
+		}
+		div {
+			font-weight: 600;
+		}
+	}
+	&__revenue {
+		width: 70%;
+		display: flex;
+		margin: 0 auto;
+		justify-content: space-between;
+		align-items: center;
+		color: #81858b;
+		font-size: 14px;
+	}
+	&__greenTxt {
+		color: #65aa57;
+		margin: 0 2px;
+		font-weight: 600;
+	}
+}
